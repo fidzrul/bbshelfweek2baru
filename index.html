@@ -5,46 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Big Bookshelf</title>
     <style>
-        .box {
-            border: 2px solid black;
-            min-height: 20px;
-            padding: 20px;
-            font-family: Arial, sans-serif;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         .login {
-            background-color: #F4CE47; 
+            background-color: #F4CE47;
             color: #000;
             padding: 15px 15px;
             font-size: 18px;
             font-weight: bolder;
             border: none;
-            border-radius: 10px; 
-            cursor: pointer; 
+            border-radius: 10px;
+            cursor: pointer;
             text-align: center;
-            width: 100px; 
+            width: 100px;
         }
 
         a {
             color: #828181;
             padding: 15px 15px;
             font-size: 18px;
+            text-decoration: none;
         }
 
+        a:hover {
+            color: #F4CE47;
+        }
     </style>
 </head>
 <body>
-<div class="box" style="display: flex; flex-direction: column;border-color: transparent;">
-    <div class="box">
-        1
-        <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;justify-content: center;
-        background-color:#2A2C2E; border-radius: 20px;">
-            <div class="box" style="font-weight: bolder;color: rgb(255, 255, 255);display: flex;
-            align-items: center;justify-content: center; border-color: transparent;">
-                BIG BOOKSHELF
+    <div class="box" style="display: flex; align-items: center; justify-content: center; padding: 20px;">
+        <div class="box" style="display: flex; flex-direction: row; justify-content: space-evenly; background-color: #2A2C2E; border-radius: 20px; width: 1200px; height: 96px;">
+            <div class="box" style="display: flex; align-items: center;">
+                <img src="logo.png" alt="logo">
             </div>
-            <div class="box" style="border-color: transparent;">
-                <nav style="display: flex;align-items: center;justify-content: center; ">
+            <div class="box" style="border-color: transparent; display: flex; flex-direction: column; justify-content: center;">
+                <nav style="display: flex; align-items: center; justify-content: center;">
                     <a href="#">Books</a>
                     <a href="#">Authors</a>
                     <a href="#">What to Read?</a>
@@ -52,337 +51,40 @@
                     <a href="#">About Us</a>
                 </nav>
             </div>
-            <div class="box" style="border-color: transparent;">
-                <button class="login">
-                    LOGIN
-                </button>
+            <div class="box" style="display: flex; flex-direction: column; justify-content: center;">
+                <img src="Right2.png" alt="Kanan">
             </div>
-        </div>
-    </div>
-    <div class="box" style="background-color:#F4CE47;display: flex;align-items: center;justify-content: center; ">
-        <span style="color: rgb(242, 174, 100);font-size: 50px; margin-right: 50px;">ALL BOOKS</span>
-        <span style="color:rgb(242, 174, 100);font-size: 50px;margin-right: 50px;">ALL BOOKS</span>
-        <span style="font-weight: bold;font-size: 50px;margin-right: 50px;">ALL BOOKS</span>
-        <span style="color: rgb(242, 174, 100);font-size: 50px;margin-right: 50px;">ALL BOOKS</span>
-        <span style="color: rgb(242, 174, 100);font-size: 50px;margin-right: 50px;">ALL BOOKS</span>
-    </div>
-    <div class="box" style="display: flex; flex-direction: column;gap: 20px;">
-        
-    </div>
-    <div class="box" style="display: flex; flex-direction: column;">
-        2
-        <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;justify-content: center;">
-            17
-            <div class="box" style="border-radius: 10px;">
-                8
-                <div class="box" style="height: 500px;width: 250px;border-radius: 10px;">
-                    
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    Adam Smith
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    <h3>The Wealth of Nations</h3>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-radius: 20px;">
-                        14 💬
-                    </div>
-                    <div class="box" style="border-radius: 20px;">
-                        4.6 ★ (165)
-                    </div>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-color: transparent; text-decoration: line-through;color: #888;
-                    margin-right: 5px;">
-                        $15.50
-                    </div>
-                    <div class="box" style="border-color: transparent;color: #e60000;font-weight: bold;">
-                        $10.50
-                    </div>
-                </div>
-            </div>
-            <div class="box" style="border-radius: 10px;">
-                9
-                <div class="box" style="height: 500px;width: 250px;border-radius: 10px;">
-                    
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    Adam Smith
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    <h3>The Wealth of Nations</h3>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-radius: 20px;">
-                        14 💬
-                    </div>
-                    <div class="box" style="border-radius: 20px;">
-                        4.6 ★ (165)
-                    </div>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-color: transparent; text-decoration: line-through;color: #888;
-                    margin-right: 5px;">
-                        $15.50
-                    </div>
-                    <div class="box" style="border-color: transparent;color: #e60000;font-weight: bold;">
-                        $10.50
-                    </div>
-                </div>
-            </div>
-            <div class="box" style="border-radius: 10px;">
-                10
-                <div class="box" style="height: 500px;width: 250px;border-radius: 10px;">
-                    
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    Adam Smith
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    <h3>The Wealth of Nations</h3>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-radius: 20px;">
-                        14 💬
-                    </div>
-                    <div class="box" style="border-radius: 20px;">
-                        4.6 ★ (165)
-                    </div>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-color: transparent; text-decoration: line-through;color: #888;
-                    margin-right: 5px;">
-                        $15.50
-                    </div>
-                    <div class="box" style="border-color: transparent;color: #e60000;font-weight: bold;">
-                        $10.50
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;transparent;justify-content: center;">
-            18
-            <div class="box" style="border-radius: 10px;">
-                11
-                <div class="box" style="height: 500px;width: 250px;border-radius: 10px;">
-                    
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    Adam Smith
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    <h3>The Wealth of Nations</h3>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-radius: 20px;">
-                        14 💬
-                    </div>
-                    <div class="box" style="border-radius: 20px;">
-                        4.6 ★ (165)
-                    </div>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-color: transparent; text-decoration: line-through;color: #888;
-                    margin-right: 5px;">
-                        $15.50
-                    </div>
-                    <div class="box" style="border-color: transparent;color: #e60000;font-weight: bold;">
-                        $10.50
-                    </div>
-                </div>
-            </div>
-            <div class="box" style="border-radius: 10px;">
-                12
-                <div class="box" style="height: 500px;width: 250px;border-radius: 10px;">
-                    
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    Adam Smith
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    <h3>The Wealth of Nations</h3>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-radius: 20px;">
-                        14 💬
-                    </div>
-                    <div class="box" style="border-radius: 20px;">
-                        4.6 ★ (165)
-                    </div>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-color: transparent; text-decoration: line-through;color: #888;
-                    margin-right: 5px;">
-                        $15.50
-                    </div>
-                    <div class="box" style="border-color: transparent;color: #e60000;font-weight: bold;">
-                        $10.50
-                    </div>
-                </div>
-            </div>
-            <div class="box" style="border-radius: 10px;">
-                13
-                <div class="box" style="height: 500px;width: 250px;border-radius: 10px;">
-                    
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    Adam Smith
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    <h3>The Wealth of Nations</h3>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-radius: 20px;">
-                        14 💬
-                    </div>
-                    <div class="box" style="border-radius: 20px;">
-                        4.6 ★ (165)
-                    </div>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-color: transparent; text-decoration: line-through;color: #888;
-                    margin-right: 5px;">
-                        $15.50
-                    </div>
-                    <div class="box" style="border-color: transparent;color: #e60000;font-weight: bold;">
-                        $10.50
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;transparent;justify-content: center;">
-            19
-            <div class="box" style="border-radius: 10px;">
-                14
-                <div class="box" style="height: 500px;width: 250px;border-radius: 10px;">
-                    
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    Adam Smith
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    <h3>The Wealth of Nations</h3>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-radius: 20px;">
-                        14 💬
-                    </div>
-                    <div class="box" style="border-radius: 20px;">
-                        4.6 ★ (165)
-                    </div>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-color: transparent; text-decoration: line-through;color: #888;
-                    margin-right: 5px;">
-                        $15.50
-                    </div>
-                    <div class="box" style="border-color: transparent;color: #e60000;font-weight: bold;">
-                        $10.50
-                    </div>
-                </div>
-            </div>
-            <div class="box" style="border-radius: 10px;">
-                15
-                <div class="box" style="height: 500px;width: 250px;border-radius: 10px;">
-                    
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    Adam Smith
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    <h3>The Wealth of Nations</h3>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-radius: 20px;">
-                        14 💬
-                    </div>
-                    <div class="box" style="border-radius: 20px;">
-                        4.6 ★ (165)
-                    </div>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-color: transparent; text-decoration: line-through;color: #888;
-                    margin-right: 5px;">
-                        $15.50
-                    </div>
-                    <div class="box" style="border-color: transparent;color: #e60000;font-weight: bold;">
-                        $10.50
-                    </div>
-                </div>
-            </div>
-            <div class="box" style="border-radius: 10px;">
-                16
-                <div class="box" style="height: 500px;width: 250px;border-radius: 10px;">
-                    
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    Adam Smith
-                </div>
-                <div class="box" style="border-color: transparent;">
-                    <h3>The Wealth of Nations</h3>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-radius: 20px;">
-                        14 💬
-                    </div>
-                    <div class="box" style="border-radius: 20px;">
-                        4.6 ★ (165)
-                    </div>
-                </div>
-                <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;border-color: transparent;">
-                    
-                    <div class="box" style="border-color: transparent; text-decoration: line-through;color: #888;
-                    margin-right: 5px;">
-                        $15.50
-                    </div>
-                    <div class="box" style="border-color: transparent;color: #e60000;font-weight: bold;">
-                        $10.50
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="box">
-        3
-        <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;">
-            6
-            <div class="box">
-                6.1
-            </div>
-            <div class="box">
-                6.2
-            </div>
-        </div>
-        <div class="box" style="display: flex; flex-direction: row;gap: 20px;flex-wrap: wrap;">
-            7
-            <div class="box">
-                7.1
-            </div>
-            <div class="box">
-                7.2
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <button class="login">LOGIN</button>
             </div>
         </div>
     </div>
 
-</div>   
-    
+    <div class="box" style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; padding-left: 0; padding-right: 0; padding-bottom: 20px;">
+        <img src="Banner.png" alt="Banner" style="width: 100%; height: auto; margin: 0; padding: 0;">
+    </div>
+
+    <div class="box" style="display: flex; flex-direction: column; background-color: #2A2C2E; padding-top: 40px; padding-bottom: 40px; gap: 10px;">
+        <div class="box" style="display: flex; flex-direction: row; gap: 10px; flex-wrap: wrap; border-color: transparent; justify-content: center;">
+            <img src="row1_1.png" alt="card1_1">
+            <img src="row1_2.png" alt="card1_2">
+            <img src="row1_3.png" alt="card1_3">
+        </div>
+        <div class="box" style="display: flex; flex-direction: row; gap: 10px; flex-wrap: wrap; border-color: transparent; justify-content: center;">
+            <img src="row2_1.png" alt="card2_1">
+            <img src="row2_2.png" alt="card2_2">
+            <img src="row2_3.png" alt="card2_3">
+        </div>
+        <div class="box" style="display: flex; flex-direction: row; gap: 10px; flex-wrap: wrap; border-color: transparent; justify-content: center;">
+            <img src="row3_1.png" alt="card3_1">
+            <img src="row3_2.png" alt="card3_2">
+            <img src="row3_3.png" alt="card3_3">
+        </div>
+    </div>
+
+    <div class="box" style="background-color: white; display: flex; flex-direction: column; flex-wrap: wrap; align-content: center; padding-top: 30px;">
+        <img src="foot_1.png" alt="footer1" style="width: 1248px; height: 88px;">
+        <img src="foot_2.png" alt="footer2" style="width: 1248px; height: 40px;">
+    </div>
 </body>
 </html>
